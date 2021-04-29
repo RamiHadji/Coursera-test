@@ -21,22 +21,24 @@
   color: red;
   font-style: normal;
 }
-	  p{color:blue;}
+	  p{color:bold;}
 
   .blue_box {
   border: 10px solid blue;
   padding: 0.5em;
   margin: 0.5em;
-  width: 150px;
-  height: 100px
-  }
+  width: auto;
+  height: auto;
+}
   .red_box {
   border: 10px solid red;
-  padding: 1.5em;
-  margin: 1.5em;
-  width: 30px;
-  height: 20px;
+  padding: 2em;
+  margin: 0.5em;
+  width: auto;
+  height: auto;
+
   }
+
   <style>
   h1{
   font-style: italic;
@@ -54,13 +56,32 @@ p{
 
 }
 .outer {
-        width: 300px;
-        border: 5px dotted orange;
+        width: 700px;
+        border: 1px dotted orange;
+        margin: auto;
 }
 
 .inner {
         border: 5px solid blue;
-        width: 50%;
+        width: auto;
+        margin: 5px;
+}
+.inne {
+	border: 5px solid blue;
+	width: auto;
+	margin: 5px
+}
+.baragraph {
+	border: 5px solid blue;
+	width: auto;
+	margin: 5px;
+
+}
+h2{
+	font-style: italic;
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 28pt;
+    font: italic 28pt Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 </style>
 </style>
@@ -68,20 +89,21 @@ p{
 <body>
 <p>	
 <p id="introduction">Welcome to my page ...</p>
-<div class="blue_box">Rami!</div>
-<div class="red_box">Mohamed</div>
+<div class="blue_box">Rami!DZ</div>
+<div class="red_box">MohamedDZ</div>
 <div class="fancybox"><p>The is a fancy little box , isn't it?</p></div>
 <div class="fancybox">
 <p>Let's have another fancy box for the revolution!</p></div>
-<em>Lorem ipsum dolor sit amet</em></p>
 
+<em><h2>Lorem ipsum dolor sit amet</h2></em>
 <div class="outer">
-        <p> This box has a box inside!
+       
         <div class="inner">
+        	 <p> This box has a box inside!
                 <p> How wide is the inner box,
                 <em>including</em> its border?
         </div>
-</div>
+<div class="inne">
 <ul id="to-do_list">
   <li class="done">Buy milk
   <li>Buy eggs
@@ -90,6 +112,9 @@ p{
   <li>Do laundry
   <li class="highlight">Learn to code
   <li class="highlight">Build a robot
+  <li class="del">The blackliste
+  	</div>
+  	<div class="baragraph">
   	<p style="text-align: center;">Style me 3 ways!</p>
 
 </ul>
